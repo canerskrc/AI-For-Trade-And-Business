@@ -1,0 +1,162 @@
+# Unit 01 – Decision Intelligence: Ticaret ve İş Dünyasında AI Destekli Karar Alma
+
+## Dersin Amacı
+Bu ünite, yapay zekâyı (AI) “tek başına teknoloji” olarak değil, ekonomik ve yönetsel kararların nasıl verildiğini dönüştüren daha geniş bir paradigma değişiminin parçası olarak ele alır. Öğrenciler, deneyim tabanlı karar alışkanlıklarından veri-temelli ve AI-destekli karar süreçlerine geçişi inceler; “Decision Intelligence” kavramını sezgisel ama akademik olarak sağlam bir çerçevede öğrenir.
+
+Bu derste kritik vurgu şudur:
+AI **insan muhakemesinin yerine geçmez**; karar kalitesini artırmak için **karar süreçlerini mühendislik yaklaşımıyla görünür, ölçülebilir ve iyileştirilebilir** hale getirir. Bu yaklaşım, Gartner’ın Decision Intelligence tanımıyla doğrudan uyumludur. :contentReference[oaicite:0]{index=0}
+
+
+---
+
+## 1) Modern Ticarette Karar Alma Neden Stratejik Bir Problem Haline Geldi?
+
+### 1.1. Karar ortamı değişti: Veri hacmi, hız ve belirsizlik
+Geçmişte birçok ticari karar; sınırlı veri, daha yavaş pazar dinamikleri ve yerel rekabet koşullarında alınıyordu. Bu bağlamda “deneyim” ve “sezgi” çoğu zaman yeterince iyi sonuç veriyordu. Ancak bugünün ticaret ortamı:
+
+- çok daha fazla sinyalin aynı anda aktığı,
+- farklı pazarların birbirine hızla bağlandığı,
+- lojistik, kur, regülasyon, tedarik şokları gibi risklerin “eşzamanlı” yönetildiği,
+- kararların gecikme maliyetinin yükseldiği
+
+bir yapıdadır.
+
+Bu dönüşümün yönetim literatüründeki karşılığı, şirketlerin rekabet avantajını giderek daha fazla “analitik kapasite ve karar disiplinine” dayandırmasıdır. Davenport’un HBR’daki “Competing on Analytics” yaklaşımı, veri ve analitiğin şirket stratejisine nasıl dönüştüğünü net biçimde gösterir: sadece teknoloji yatırımı değil, karar kültürü ve yönetim yaklaşımı dönüşür. :contentReference[oaicite:1]{index=1}
+
+### 1.2. İnsan karar vericinin sınırı: karmaşıklık ve bilişsel yük
+Ticari kararlar artık tek bir parametreye indirgenemeyecek kadar çok boyutlu:
+- “kâr” tek hedef değil; risk, sürdürülebilirlik, itibar, regülasyon uyumu, müşteri deneyimi gibi hedefler aynı anda masadadır.
+- “doğru karar” çoğu zaman tek bir doğru değil; trade-off’ların yönetimidir.
+
+İnsan zihni bağlam kurmada çok güçlüdür; ancak yüksek boyutlu değişken uzaylarında (ör. yüzlerce sinyal) tutarlı değerlendirme yapmakta zorlanır. Bu yüzden modern kurumlar “insanın güçlü olduğu alanları” (bağlam, etik, strateji, amaç) korurken, “AI’nın güçlü olduğu alanlardan” (ölçek, hız, örüntü tanıma, simülasyon) yararlanır. Bu yaklaşım, Decision Intelligence’ın pratik gerekçesidir.
+
+
+---
+
+## 2) Deneyim Tabanlı Karardan Veri Tabanlı Karara Geçiş: Neden “Sadece Veri” Yetmez?
+
+### 2.1. Deneyim tabanlı kararın güçlü yanı
+Deneyim, özellikle:
+- örtük bilgi (tacit knowledge),
+- pazar sezgisi,
+- ilişki ağları,
+- sektörün yazılı olmayan kuralları
+
+gibi unsurları taşıdığı için değerlidir.
+
+Ancak deneyim tabanlı kararın zayıf yanı şudur:
+Deneyim, **ölçeklenebilir** değildir ve çoğu zaman **kanıtlanabilir** değildir.
+Aynı karar farklı kişilerde farklı sonuçlar doğurabilir; kurum içinde “neden böyle yaptık?” sorusu iz bırakmadan kaybolabilir.
+
+### 2.2. Veri tabanlı kararın güçlü yanı
+Veri tabanlı karar:
+- ölçülebilir,
+- karşılaştırılabilir,
+- denetlenebilir (audit edilebilir),
+- öğrenmeye uygun (feedback ile iyileştirilebilir)
+
+bir yapı kurar.
+
+Ancak kritik nokta:
+Veri tek başına karar üretmez; veri **yorum** ister.
+“Model çıktı verdi” demek “karar doğru” demek değildir. Modelin hangi bağlamda çalıştığı, hangi amaç fonksiyonuna göre optimize edildiği ve hangi riskleri dışarıda bıraktığı karar kalitesini belirler.
+
+Bu nedenle karar olgunluğu, BI/analytics seviyesinden “decision engineering” seviyesine evrilir. Gartner’ın DI tanımı tam olarak bu noktayı vurgular: kararların nasıl verildiğini açıkça anlamak, modellemek, izlemek ve geribildirimle geliştirmek. :contentReference[oaicite:2]{index=2}
+
+
+---
+
+## 3) Decision Intelligence (DI) Nedir? – Akademik ve Uygulamalı Tanım
+
+### 3.1. Gartner perspektifi (pratik disiplin)
+Gartner’a göre Decision Intelligence:
+Kararların nasıl verildiğini ve sonuçların nasıl değerlendirildiğini “açıkça modelleyen”, karar kalitesini geribildirim döngüsüyle iyileştiren pratik bir disiplindir. :contentReference[oaicite:3]{index=3}
+
+Bu tanım iki önemli mesaj taşır:
+1) DI, yalnızca model kurmak değildir; karar sürecinin uçtan uca “tasarlanmasıdır”.
+2) Amaç, “insight üretmek” değil; “insight’ı eyleme bağlayan karar akışı” kurmaktır.
+
+### 3.2. Akademik perspektif: karar için gereken zekâ ile işleme kapasitesinin uyumu
+Akademik literatürde Decision Intelligence, karar için gereken “intelligence requirements” ile kurumun bu zekâyı toplama/işleme kapasitesinin uyumunu kuran bir çerçeve olarak ele alınır. Bu yaklaşım özellikle üst düzey yöneticinin (senior executive) karar kalitesini artırmak için kurum içi bilgi işleme mimarisini yeniden düzenlemesini vurgular. :contentReference[oaicite:4]{index=4}
+
+Buradaki kritik çıkarım:
+DI, sadece ML modeli değil; bilgi toplama, sinyal ayrıştırma, analiz, karar tasarımı, uygulama ve ölçüm süreçlerinin bütünüdür.
+
+### 3.3. DI’nin “AI destekler, insan karar verir” ilkesi
+DI yaklaşımı, AI’ı kararın sahibi yapmaz. Çünkü:
+- ticari kararlar çoğu zaman normatif (değer yüklü) tercihler içerir,
+- sorumluluk ve hesap verebilirlik (accountability) gerektirir,
+- regülasyon ve etik çerçeve ile uyum ister.
+
+Bu yüzden modern pratikte “human-in-the-loop” yaklaşımı kurumsal karar sistemlerinde kritik rol oynar: insan, AI sürecine aktif katılır; doğruluk, güvenlik ve hesap verebilirlik için kontrol noktaları oluşturur. :contentReference[oaicite:5]{index=5}
+
+
+---
+
+## 4) “AI Kararı Almaz, Kararı Hazırlar”: Karar Mimarisi Bakışı
+
+Bu bölümü ticaret ve iş senaryolarına doğrudan uygulayabilmek için “kararı hazırlama” işini parçalayalım.
+
+### 4.1. AI’nın tipik katkıları (Trade & Business bağlamında)
+AI genelde şu katkıları sağlar:
+- **Sinyal keşfi:** veri içinde karar açısından anlamlı örüntüler bulur.
+- **Tahmin:** talep, churn, kur riski, teslimat gecikmesi gibi değişkenleri tahmin eder.
+- **Sınıflama / skorlama:** tedarikçi riski, müşteri güven skoru, ülke risk skoru gibi skorlar üretir.
+- **Simülasyon:** senaryoları karşılaştırır (“kur %10 artarsa marj ne olur?”).
+- **Anomali tespiti:** olağan dışı hareketleri işaretler.
+
+Bu katkılar kararın “ham maddesini” güçlendirir. Ancak kararın:
+- hedefleri (kâr mı pazar payı mı?)
+- kısıtları (regülasyon, itibar, kapasite)
+- risk toleransı
+- stratejik zamanlaması
+
+insan tarafından belirlenir.
+
+### 4.2. İnsan muhakemesinin vazgeçilmez alanları
+AI, özellikle şu konularda insanı ikame edemez:
+- “neye göre iyi?” sorusu (değer ve hedef tanımı)
+- etik ve uyum değerlendirmesi
+- istisnai durumlar (outlier olaylar) ve bağlam
+- çok taraflı müzakere / ilişki yönetimi
+- kurum stratejisiyle hizalama
+
+Bu nedenle DI, AI’ı kararın merkezine değil; kararın etrafındaki “analitik kas” olarak konumlar.
+
+
+---
+
+## 5) Trade & Business Örneği: İhracat Pazarı Seçimi (DI ile)
+
+### Problem
+Bir firma 3 ülkeye ihracat planlıyor. Karar: “Hangi pazara önce girelim?”
+
+### Deneyim tabanlı yaklaşım
+- “Geçen yıl ülke X iyi gitmişti.”
+- “Orada distribütör tanıyoruz.”
+- “Bence talep var.”
+
+Bu yaklaşım hızlıdır ama iz bırakmaz: kurum kararı neden aldığını kanıtlayamaz; yeni yönetici geldiğinde bilgi kaybolur.
+
+### DI yaklaşımı
+DI ile karar bir “akış” olarak tasarlanır:
+1) Veri sinyalleri: kur oynaklığı, lojistik süre dağılımı, politik risk endeksi, gümrük prosedür süresi, hedef segment talep trendi
+2) Analitik: risk skoru + talep tahmini + kârlılık simülasyonu
+3) Karar opsiyonları: Ülke A (yüksek talep, orta risk), Ülke B (orta talep, düşük risk), Ülke C (yüksek marj, yüksek risk)
+4) Yönetici değerlendirmesi: stratejiye göre ağırlıklandırma (ör. “bu çeyrek risk almak istemiyoruz”)
+5) Sonuç ölçümü: seçilen ülke performansının izlenmesi ve modelin geribildirimle iyileştirilmesi
+
+Bu mantık, Gartner’ın DI tanımındaki “outcome evaluation + feedback loop” fikrini pratikte karşılar. :contentReference[oaicite:6]{index=6}
+
+
+---
+
+## 6) Dersin Çıktıları: Öğrencinin Kazanması Beklenen Yetkinlikler
+
+Bu ünite sonunda öğrenci:
+- AI’ın karar verici değil, karar hazırlayıcı olduğunu,
+- Decision Intelligence’ın BI/Analytics’ten farkını,
+- DI’nin neden “süreç mühendisliği + geri besleme” gerektirdiğini,
+- human-in-the-loop yaklaşımının ticarette neden kritik olduğunu
+
+akademik temelli, pratik örneklerle açıklayabilir. :contentReference[oaicite:7]{index=7}
