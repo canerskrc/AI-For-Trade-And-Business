@@ -1,12 +1,5 @@
 # Unit 01 – Decision Intelligence: Ticaret ve İş Dünyasında AI Destekli Karar Alma
 
-## Dersin Amacı
-Bu ünite, yapay zekâyı (AI) “tek başına teknoloji” olarak değil, ekonomik ve yönetsel kararların nasıl verildiğini dönüştüren daha geniş bir paradigma değişiminin parçası olarak ele alır. Öğrenciler, deneyim tabanlı karar alışkanlıklarından veri-temelli ve AI-destekli karar süreçlerine geçişi inceler; “Decision Intelligence” kavramını sezgisel ama akademik olarak sağlam bir çerçevede öğrenir.
-
-Bu derste kritik vurgu şudur:
-AI **insan muhakemesinin yerine geçmez**; karar kalitesini artırmak için **karar süreçlerini mühendislik yaklaşımıyla görünür, ölçülebilir ve iyileştirilebilir** hale getirir. Bu yaklaşım, Gartner’ın Decision Intelligence tanımıyla doğrudan uyumludur. :contentReference[oaicite:0]{index=0}
-
-
 ---
 
 ## 1) Modern Ticarette Karar Alma Neden Stratejik Bir Problem Haline Geldi?
@@ -151,12 +144,3 @@ Bu mantık, Gartner’ın DI tanımındaki “outcome evaluation + feedback loop
 
 ---
 
-## 6) Dersin Çıktıları: Öğrencinin Kazanması Beklenen Yetkinlikler
-
-Bu ünite sonunda öğrenci:
-- AI’ın karar verici değil, karar hazırlayıcı olduğunu,
-- Decision Intelligence’ın BI/Analytics’ten farkını,
-- DI’nin neden “süreç mühendisliği + geri besleme” gerektirdiğini,
-- human-in-the-loop yaklaşımının ticarette neden kritik olduğunu
-
-akademik temelli, pratik örneklerle açıklayabilir. :contentReference[oaicite:7]{index=7}
